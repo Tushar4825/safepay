@@ -1,0 +1,505 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "firebase_admin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "cohere",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cohere",
+        "description": "cohere",
+        "detail": "cohere",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def home():\n    return jsonify({\"message\": \"Welcome to  HDFC Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')\n    balance = data.get('balance')\n    if not name or not phone_number or not upi_pin or not balance:",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "create_account",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')\n    balance = data.get('balance')\n    if not name or not phone_number or not upi_pin or not balance:\n        return jsonify({\"message\": \"All fields are required\"}), 400\n    # Reference to the Firebase Realtime Database root\n    ref = db.reference()",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "check_account",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def check_account(phone_number):\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone_number)\n    if user_ref.get() is None:\n        return jsonify({\"message\": \"Account not found\"}), 404\n    return jsonify({\"message\": \"Account exists\"}), 200\n@app.route('/syn', methods=['POST'])\ndef syn():\n    data = request.json\n    phone = data.get('phone')",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "syn",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def syn():\n    data = request.json\n    phone = data.get('phone')\n    return jsonify({\"message\": \"ACK\", \"phone\": phone}), 200\n@app.route('/debit', methods=['POST'])\ndef debit():\n    data = request.json\n    phone = data.get('phone')\n    amount = data.get('amount')\n    upi_pin = data.get('upi_pin')",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "debit",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def debit():\n    data = request.json\n    phone = data.get('phone')\n    amount = data.get('amount')\n    upi_pin = data.get('upi_pin')\n    if not phone or not amount or not upi_pin:\n        return jsonify({\"message\": \"All fields are required\"}), 400\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone)\n    user_data = user_ref.get()",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "credit",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def credit():\n    data = request.json\n    phone = data.get('phone')\n    amount = data.get('amount')\n    if not phone or not amount:\n        return jsonify({\"message\": \"All fields are required\"}), 400\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone)\n    user_data = user_ref.get()\n    if user_data is None:",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "check_balance",
+        "kind": 2,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "def check_balance():\n    data = request.json\n    phone = data.get('phone')\n    upi_pin = data.get('upi_pin')\n    if not phone or not upi_pin:\n        return jsonify({\"message\": \"Phone number and UPI PIN are required\"}), 400\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone)\n    user_data = user_ref.get()\n    if user_data is None:",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)\n# Initialize Firebase Realtime Database\ncred = credentials.Certificate(\"../creadentials/hdfccredentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://hdfc-94773-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\nBANK_NAME = \"HDFC\"\nconnection_states = {}\n@app.route('/')",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "cred",
+        "kind": 5,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "cred = credentials.Certificate(\"../creadentials/hdfccredentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://hdfc-94773-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\nBANK_NAME = \"HDFC\"\nconnection_states = {}\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to  HDFC Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "BANK_NAME",
+        "kind": 5,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "BANK_NAME = \"HDFC\"\nconnection_states = {}\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to  HDFC Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "connection_states",
+        "kind": 5,
+        "importPath": "bankservers.hdfcserver",
+        "description": "bankservers.hdfcserver",
+        "peekOfCode": "connection_states = {}\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to  HDFC Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')",
+        "detail": "bankservers.hdfcserver",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def home():\n    return jsonify({\"message\": \"Welcome to SBI Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')\n    balance = data.get('balance')\n    if not name or not phone_number or not upi_pin or not balance:",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "create_account",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')\n    balance = data.get('balance')\n    if not name or not phone_number or not upi_pin or not balance:\n        return jsonify({\"message\": \"All fields are required\"}), 400\n    # Reference to the Firebase Realtime Database root\n    ref = db.reference()",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "check_account",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def check_account(phone_number):\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone_number)\n    if user_ref.get() is None:\n        return jsonify({\"message\": \"Account not found\"}), 404\n    return jsonify({\"message\": \"Account exists\"}), 200\n@app.route('/syn', methods=['POST'])\ndef syn():\n    data = request.json\n    phone = data.get('phone')",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "syn",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def syn():\n    data = request.json\n    phone = data.get('phone')\n    return jsonify({\"message\": \"ACK\", \"phone\": phone}), 200\n@app.route('/debit', methods=['POST'])\ndef debit():\n    data = request.json\n    phone = data.get('phone')\n    amount = data.get('amount')\n    upi_pin = data.get('upi_pin')",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "debit",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def debit():\n    data = request.json\n    phone = data.get('phone')\n    amount = data.get('amount')\n    upi_pin = data.get('upi_pin')\n    if not phone or not amount or not upi_pin:\n        return jsonify({\"message\": \"All fields are required\"}), 400\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone)\n    user_data = user_ref.get()",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "credit",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def credit():\n    data = request.json\n    phone = data.get('phone')\n    amount = data.get('amount')\n    if not phone or not amount:\n        return jsonify({\"message\": \"All fields are required\"}), 400\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone)\n    user_data = user_ref.get()\n    if user_data is None:",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "check_balance",
+        "kind": 2,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "def check_balance():\n    data = request.json\n    phone = data.get('phone')\n    upi_pin = data.get('upi_pin')\n    if not phone or not upi_pin:\n        return jsonify({\"message\": \"Phone number and UPI PIN are required\"}), 400\n    ref = db.reference()\n    user_ref = ref.child(BANK_NAME).child(phone)\n    user_data = user_ref.get()\n    if user_data is None:",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)\n# Initialize Firebase Realtime Database\ncred = credentials.Certificate(\"../creadentials/sbicredentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://sbibank-29143-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\nBANK_NAME = \"SBI\"\n@app.route('/')\ndef home():",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "cred",
+        "kind": 5,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "cred = credentials.Certificate(\"../creadentials/sbicredentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://sbibank-29143-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\nBANK_NAME = \"SBI\"\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to SBI Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])\ndef create_account():",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "BANK_NAME",
+        "kind": 5,
+        "importPath": "bankservers.sbiserver",
+        "description": "bankservers.sbiserver",
+        "peekOfCode": "BANK_NAME = \"SBI\"\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to SBI Bank API\"}), 200\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    name = data.get('name')\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')",
+        "detail": "bankservers.sbiserver",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def home():\n    return jsonify({\"message\": \"Welcome to  Bank API\"}), 200\nBANK_SERVERS = {\n    \"SBI\": \"http://localhost:5001\",\n    \"HDFC\": \"http://localhost:5002\"\n}\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    bank_name = data.get('bankName')",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "create_account",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def create_account():\n    data = request.json\n    bank_name = data.get('bankName')\n    if bank_name not in BANK_SERVERS:\n        return jsonify({\"message\": \"Invalid bank name\"}), 400\n    # Forward the request to the appropriate bank server\n    response = requests.post(f\"{BANK_SERVERS[bank_name]}/create_account\", json=data)\n    return jsonify(response.json()), response.status_code\n@app.route('/signup', methods=['POST'])\ndef signup():",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def signup():\n    data = request.json\n    bank_name = data.get('bankName')\n    phone_number = data.get('phoneNumber')\n    if bank_name not in BANK_SERVERS:\n        return jsonify({\"message\": \"Invalid bank name\"}), 400\n    # Check with the bank server if the account exists\n    response = requests.get(f\"{BANK_SERVERS[bank_name]}/check_account/{phone_number}\")\n    if response.status_code != 200:\n        return jsonify(response.json()), response.status_code",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def login():\n    data = request.json\n    phone_number = data.get('phoneNumber')\n    password = data.get('password')\n    if not phone_number or not password:\n        return jsonify({\"message\": \"Phone number and password are required\"}), 400\n    # Reference to the Firebase Realtime Database root\n    ref = db.reference()\n    # Check if the user exists in the 'users' collection\n    user_ref = ref.child('users').child(phone_number)",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "initiate_transaction",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def initiate_transaction():\n    data = request.json\n    sender_phone = data.get('sender_phone')\n    recipient_phone = data.get('recipient_phone')\n    if not sender_phone or not recipient_phone:\n        return jsonify({\n            \"error\": \"missing_data\",\n            \"message\": f\"Sender and recipient numbers are required. Received: sender={sender_phone}, recipient={recipient_phone}\"\n        }), 400\n    ref = db.reference()",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "process_payment",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def process_payment():\n    data = request.json\n    sender_phone = data.get('sender_phone')\n    recipient_phone = data.get('recipient_phone')\n    amount = data.get('amount')\n    upi_pin = data.get('upi_pin')\n    if not sender_phone or not recipient_phone or not amount or not upi_pin:\n        return jsonify({\"error\": \"missing_data\", \"message\": \"All fields are required\"}), 400\n    ref = db.reference()\n    users_ref = ref.child('users')",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "check_balance",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def check_balance():\n    data = request.json\n    phone_number = data.get('phoneNumber')\n    upi_pin = data.get('upiPin')\n    if not phone_number or not upi_pin:\n        return jsonify({\"error\": \"missing_data\", \"message\": \"Phone number and UPI PIN are required\"}), 400\n    ref = db.reference()\n    user_data = ref.child('users').child(phone_number).get()\n    if not user_data:\n        return jsonify({\"error\": \"not_found\", \"message\": \"User not found\"}), 404",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "submit_report",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def submit_report():\n    data = request.json\n    sender_phone = data.get('senderPhoneNumber')\n    recipient_phone = data.get('recipientPhoneNumber')\n    description = data.get('description')\n    if not sender_phone or not recipient_phone or not description:\n        return jsonify({\"error\": \"missing_data\", \"message\": \"All fields are required\"}), 400\n    ref = db.reference()\n    users_ref = ref.child('users')\n    # Check if recipient exists",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "cohere_api_key",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "cohere_api_key = os.getenv(\"COHERE_API_KEY\")\nco = cohere.Client(api_key=cohere_api_key)\napp = Flask(__name__)\nCORS(app)\n# Initialize Firebase Realtime Database\ncred = credentials.Certificate(\"./creadentials/credentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://safepay-f4ba5-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\n@app.route('/')",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "co",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "co = cohere.Client(api_key=cohere_api_key)\napp = Flask(__name__)\nCORS(app)\n# Initialize Firebase Realtime Database\ncred = credentials.Certificate(\"./creadentials/credentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://safepay-f4ba5-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\n@app.route('/')\ndef home():",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)\n# Initialize Firebase Realtime Database\ncred = credentials.Certificate(\"./creadentials/credentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://safepay-f4ba5-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to  Bank API\"}), 200",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "cred",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "cred = credentials.Certificate(\"./creadentials/credentials.json\")\nfirebase_admin.initialize_app(cred, {\n    \"databaseURL\": \"https://safepay-f4ba5-default-rtdb.asia-southeast1.firebasedatabase.app/\"\n})\n@app.route('/')\ndef home():\n    return jsonify({\"message\": \"Welcome to  Bank API\"}), 200\nBANK_SERVERS = {\n    \"SBI\": \"http://localhost:5001\",\n    \"HDFC\": \"http://localhost:5002\"",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "BANK_SERVERS",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "BANK_SERVERS = {\n    \"SBI\": \"http://localhost:5001\",\n    \"HDFC\": \"http://localhost:5002\"\n}\n@app.route('/create_account', methods=['POST'])\ndef create_account():\n    data = request.json\n    bank_name = data.get('bankName')\n    if bank_name not in BANK_SERVERS:\n        return jsonify({\"message\": \"Invalid bank name\"}), 400",
+        "detail": "server",
+        "documentation": {}
+    }
+]
